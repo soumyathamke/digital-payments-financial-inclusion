@@ -21,10 +21,17 @@ Data from ai agents - scratch
 
 ## Files
 - data/ — raw and cleaned datasets
+  Digital_Payments_Raw_Data_6Sheets (1) - Main raw data excel file
+  -Has 6 sheets and 1 extra Data quality log sheet 
+  -Sheet1,Sheet2,Sheet3,Sheet4,Sheet5,Sheet6 - 6 sheets cleaned
+  -df_combined - All 6 sheets combined
+  -df_clean -All 6 sheets combined and cleaned  
 - scripts/ — R cleaning and analysis code
 - visuals/ — exported charts
+  -adoption_by_state.png
+  -high_pop_low_adopt.png
 
 ## How to Run
-1. Open cleaning_analysis.R in RStudio
+1. Open Analysis_cleaning.R in RStudio
 2. Set working directory to project folder
 3. Run the script top to bottom
